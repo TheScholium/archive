@@ -9,8 +9,8 @@ Archive saves your handwriting as an image. It does not convert it to text.
 ## Install
 
 1. Download `archive.snplg` from the [latest release](https://github.com/TheScholium/archive/releases/latest).
-2. Copy it to your Supernote (USB, Supernote Partner, or your usual cloud folder).
-3. On the device, open **Settings > Apps > Plugins**, add the file, and turn Archive on.
+2. Copy it to the `MyStyle` folder on your Supernote (USB, Supernote Partner, or your usual cloud folder).
+3. On the device, open **Settings > Apps > Plugins > Add Plugin** and choose `archive.snplg`.
 
 Archive needs firmware **Chauvet 3.30.45 or later**, the first version with plugins. It is not in Supernote's InkHub catalog.
 
