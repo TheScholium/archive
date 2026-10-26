@@ -1,5 +1,7 @@
 # Archive
 
+https://github.com/user-attachments/assets/d6e3ed28-9df6-48ce-b382-37f196789ae3
+
 **Send handwriting from your Supernote to Obsidian.**
 
 I've often found that I want more control over what exactly shows up in Obsidian, as opposed to mirroring whole notebooks or pages. Archive allows you to lasso a derivation, a diagram, a sentence you want to come back to, tap **Send to Obsidian**, type a title, and create its own note in your vault, with the handwriting at the top and room to type under it.
