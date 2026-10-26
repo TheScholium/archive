@@ -2,7 +2,7 @@
 
 **Send handwriting from your Supernote to Obsidian.**
 
-You are reading on the Supernote, and you write something worth keeping: a derivation, a diagram, a sentence you want to come back to. Lasso it, tap **Send to Obsidian**, type a title, and it becomes its own note in your vault, with the handwriting at the top and room to type under it.
+I've often found that I want more control over what exactly shows up in Obsidian, as opposed to mirroring whole notebooks or pages. Archive allows you to lasso a derivation, a diagram, a sentence you want to come back to, tap **Send to Obsidian**, type a title, and create its own note in your vault, with the handwriting at the top and room to type under it.
 
 Archive saves your handwriting as an image. It does not convert it to text.
 
@@ -47,9 +47,9 @@ If a note with that title already exists, Archive adds a number ("Title 2"). It 
 
 ## Getting the notes into your vault
 
-Archive only writes to a folder on the Supernote. Your job is to get that folder into your vault. Any method that copies `Document/Archive` to your computer and into your vault works. Three that do:
+Archive only writes to a folder on the Supernote. Your job is to get that folder into your vault. Any method that copies `Document/Archive` to your computer and into your vault works. Options I'm aware of:
 
-- **Supernote Partner.** Sync the device with the Partner app on your computer, then make the synced `Archive` folder part of your vault.
+- **Supernote Partner.** Sync the device with the Partner app on your computer, then make the synced `Archive` folder part of your vault. (This is what I did)
 - **Google Drive or Dropbox.** Sync the Supernote to the service, and keep your vault, or the `Archive` folder inside it, in the synced folder on your computer.
 - **A symlink.** If the synced `Archive` folder is outside your vault, link it in. On a Mac, in Terminal: `ln -s "/path/to/synced/Archive" "/path/to/your/vault/Archive"`. A Finder alias does not work.
 
@@ -61,8 +61,8 @@ To send the notes somewhere else, change the **inbox folder** under **Settings >
 
 Handwriting is black strokes on a transparent background, so on a dark theme it disappears. Archive marks every image it embeds with `|ink` so that a theme can recolor it.
 
-- **[Istari](https://github.com/TheScholium/istari)** recolors ink images to its text color. Nothing to set up.
-- **Any other theme:** add this CSS snippet (Settings > Appearance > CSS snippets). It draws the strokes white in dark mode and leaves them black in light mode and in PDF exports.
+My theme, **[Istari](https://github.com/TheScholium/istari)**, recolors ink images to its text color. Nothing to set up.
+**Any other theme:** add this CSS snippet (Settings > Appearance > CSS snippets). It draws the strokes white in dark mode and leaves them black in light mode and in PDF exports.
 
 ```css
 .theme-dark img[alt~="ink"] { filter: invert(1); }
