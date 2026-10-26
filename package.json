@@ -1,0 +1,42 @@
+{
+  "name": "archive",
+  "version": "1.1.0",
+  "description": "Lasso a handwritten section on Supernote and send it to a new Obsidian note",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "typecheck": "tsc --noEmit -p .",
+    "build": "bash tools/build-plugin.sh",
+    "icons": "python3 tools/make-icons.py"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "sn-plugin-lib": "0.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "18.0.0",
+    "@react-native-community/cli-platform-android": "18.0.0",
+    "@react-native/babel-preset": "0.79.2",
+    "@react-native/metro-config": "0.79.2",
+    "@react-native/typescript-config": "0.79.2",
+    "@testing-library/react-native": "^13.2.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.0.0",
+    "jest": "^29.7.0",
+    "react-test-renderer": "19.0.0",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheScholium/archive.git"
+  },
+  "homepage": "https://github.com/TheScholium/archive"
+}

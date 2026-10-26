@@ -1,0 +1,40 @@
+name: Something does not work
+description: A capture fails, or a note does not reach your vault.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you. These four answers find most problems quickly.
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options: [Nomad, Manta, Other]
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+      description: Settings > About on the device, for example Chauvet 3.31.45.
+    validations:
+      required: true
+  - type: input
+    id: inbox
+    attributes:
+      label: Inbox folder
+      description: Settings > Apps > Plugins > Archive. The default is Document/Archive.
+    validations:
+      required: true
+  - type: input
+    id: sync
+    attributes:
+      label: How the folder gets to your vault
+      description: For example Supernote Partner, Google Drive, Dropbox.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw. Copy the text of any error message.
+    validations:
+      required: true

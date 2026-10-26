@@ -1,0 +1,13 @@
+{
+  "name": "Archive",
+  "desc": "Lasso a handwritten section and send it to a new Obsidian note. Saves the image and a Markdown note with the title that you type.",
+  "iconPath": "assets/plugin-icon.png",
+  "versionName": "1.1.0",
+  "versionCode": "2",
+  "pluginID": "8w3e0tohb8awxyib",
+  "pluginKey": "archive",
+  "jsMainPath": "index",
+  "uses-permissions": [
+    "plugin.permission.FILE:WRITE"
+  ]
+}
